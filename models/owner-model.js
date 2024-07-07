@@ -18,4 +18,4 @@ const ownerSchema = mongoose.Schema({
     gstIn : String
 })
 
-modules.exports = mongoose.model("owner", ownerSchema);
+module.exports = mongoose.model("owner", ownerSchema);
